@@ -1,0 +1,78 @@
+/* Styles go here */
+
+body{
+  background-color:#490560;
+  color:#fff;
+}
+
+.heder-area,.footer-area{
+  background-color:#380549;
+ /* padding:10px;*/
+}
+.main-area{
+  margin:20px;
+}
+.keyboard{
+  text-align:center;
+  
+}
+
+.keyboard button{
+  margin:0 5px 5px 0;
+  font-size:20px;
+  width:50px;
+}
+.current-word{
+  text-align:center;
+}
+.question{
+  margin-top:20px;
+  padding:10px;
+  border:2px solid #fff;
+}
+.question h1{
+  margin:0;
+}
+.answer{
+  margin-bottom:20px;
+  background-color:#380549;
+  padding:10px;
+ border:2px solid #711292;
+}
+.answer h1{
+  color:#711292;
+  margin:0;
+}
+.right-text{
+  text-align:right;
+}
+.middle-text{
+  text-align:center;
+}
+ h3#message{
+   display:none;
+}
+.modal-content {
+    position: relative;
+    background-color: #380549;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #711292;
+   
+    border-radius: 3px;
+    outline: 0;
+  color:#fff;
+    -webkit-box-shadow: 0 3px 9px ;
+}
+.modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #711292;
+}
+.modal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #711292;
+}
+.footer-bar{
+  padding:10px;
+}
